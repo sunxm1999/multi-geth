@@ -105,7 +105,7 @@ var (
 		Ethash:              new(EthashConfig),
 	}
 
-	// Ethersocial Mainnet chain parameters
+	// EthersocialChainConfig is the chain parameters to run a node on the Ethersocial main network.
 	EthersocialChainConfig = &ChainConfig{
 		ChainId:             big.NewInt(0),
 		HomesteadBlock:      big.NewInt(0),
@@ -121,7 +121,7 @@ var (
 		Ethash:              new(EthashConfig),
 	}
 
-	// Callisto Mainnet chain parameters
+	// CallistoChainConfig is the chain parameters to run a node on the Callisto main network.
 	CallistoChainConfig = &ChainConfig{
 		ChainId:             big.NewInt(820),
 		HomesteadBlock:      big.NewInt(0),
