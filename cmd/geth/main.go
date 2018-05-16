@@ -106,6 +106,7 @@ var (
 		utils.DeveloperFlag,
 		utils.DeveloperPeriodFlag,
 		utils.TestnetFlag,
+		utils.FoundationFlag,
 		utils.EllaismFlag,
 		utils.ClassicFlag,
 		utils.SocialFlag,
